@@ -1,7 +1,7 @@
 ## Features
 
 This is a sample application to showcase the use of Spring Cloud Function on top of Azure Functions.
-The application consumes an external API (https://www.gov.uk/bank-holidays.json") and generate a .csv file based on external API Response.
+The application consumes an external API (https://www.gov.uk/bank-holidays.json") and generate a .csv England and Wales bank holidays according to year param.
 
 ## Getting Started
 
@@ -29,8 +29,3 @@ Deploy the application on Azure Functions with the Azure Function Maven plug-in:
 
 `mvn azure-functions:deploy`
 
-You can then test the running application, by running a GET request:
-
-```
-curl https://england-wales-bank-holidays202108211930.azurewebsites.net/api/englandwalesbankholidays?year=2019
-```
