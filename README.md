@@ -1,7 +1,7 @@
 ## Features
 
 This is a sample application to showcase the use of Spring Cloud Function on top of Azure Functions.
-The application consumes an external API (https://www.gov.uk/bank-holidays.json") and generate a .csv file based on external API Response.
+The application consumes an external API (https://www.gov.uk/bank-holidays.json") and generate a .csv England and Wales bank holidays according to year param.
 
 ## Getting Started
 
