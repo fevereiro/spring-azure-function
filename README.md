@@ -29,8 +29,3 @@ Deploy the application on Azure Functions with the Azure Function Maven plug-in:
 
 `mvn azure-functions:deploy`
 
-You can then test the running application, by running a GET request:
-
-```
-curl https://england-wales-bank-holidays202108211930.azurewebsites.net/api/englandwalesbankholidays?year=2019
-```
